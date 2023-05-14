@@ -1,0 +1,79 @@
+.error-404 .inner-content {
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+}
+
+
+.error-404 .error-title {
+    font-size: 180px;
+    line-height: 180px;
+    margin-bottom: 15px;
+    color: #1f2278;
+}
+.error-404 .error-title span {
+    width: 145px;
+    height: 145px;
+    display: inline-block;
+    background-image: url(../ASSESTS/imag/error.4b5472f1.gif);
+    background-size: 100%;
+    margin: 0 10px;
+}
+
+.error-404 .error-text {
+    margin-bottom: 15px;
+    font-family: "Montserrat",sans-serif;
+    color: #1f2278;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.error-404 p {
+    margin-bottom: 30px;
+    color: #525252;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+.btn-back{
+    background-color: #565acf;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all .5s;
+    border-width: 2px;
+    line-height: 1.2;
+    color: white;
+    margin-right: 10px;
+}
+
+
+.btn-home{
+    background-color: #565acf;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    border-width: 2px;
+    line-height: 1.2;
+}
+
+
+.btn-home:hover,
+.btn-back:hover{
+   color: white;
+   background-color: rgb(10, 17, 77);
+}

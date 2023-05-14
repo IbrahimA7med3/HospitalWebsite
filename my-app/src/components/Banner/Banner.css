@@ -1,0 +1,89 @@
+.banner{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 0;
+    background-image: url(../../ASSESTS/Banner/back.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 420px;
+    width: 100%;
+    z-index: 1;
+ }
+
+.banner h2{
+    color: var(--main-color);
+    font-size: 80px;
+    margin: 20px 0px;
+    font-weight: bold;
+    line-height: 120px;
+}
+
+.banner li{
+    background-color: #565acf;
+    border: 1px solid #565acf;
+    text-align: center;
+    color:white;
+    width: 300px;
+    height: 50px;
+    margin: 50px auto;
+    border-radius: 8px;
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    line-height: 50px;
+    font-size: 17px;
+    text-transform: capitalize;
+   
+}
+
+.banner li a{
+    color: white;
+    margin:0px 10px ;
+}
+.banner li a svg{
+    margin-right: 10px;
+}
+
+.pt-img1 {
+    left: 8%;
+    bottom: 60px;
+    z-index: 1;
+    position: absolute;
+    width: 130px;
+  
+    -webkit-animation: mover 1s infinite alternate;
+   
+    
+}
+
+
+.pt-img2 {
+    
+    width: 150px;
+    position: absolute;
+     left: 85%;
+     bottom: 45%;
+     -webkit-animation: mover 1s infinite alternate;
+
+}
+
+.banner:after {
+    content: "";
+    background-image: url(../../ASSESTS/Banner/download2.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    z-index: -1;
+}

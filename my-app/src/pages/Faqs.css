@@ -1,0 +1,34 @@
+
+
+.show-sc{
+    border: 0;
+    margin-bottom: 15px;
+}
+
+
+
+.show-sc .btn-show{
+    background-color:#565ACF;
+    font-weight: 500;
+    line-height: 10px;
+    color: #fff;
+    margin-bottom: -5px;
+    border-radius: 8px!important;
+    border: 0;
+    text-align: left;
+    width: 559px;
+    height: 55px;
+    padding: 19px 25px;
+    transition: all .5s;
+}
+
+
+.show-sc .btn-tex {
+    font-size: 15px;
+    padding: 25px;
+    background-color: rgba(86,90,207,.1);
+    border-radius: 0px 0px 8px 8px;
+    width: 558px;
+    
+}
+

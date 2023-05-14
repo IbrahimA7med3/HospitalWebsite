@@ -1,0 +1,320 @@
+form{
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    
+    
+}
+
+form .form-control{
+  border: none;
+  margin-top: 12px;
+  
+}
+form input
+{
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px ;
+    
+    color: #333;
+    -webkit-border-radius:4px  !important;
+    -moz-border-radius:4px !important;
+    -ms-border-radius:4px !important;
+    -o-border-radius:4px !important;
+    outline: none;
+    font-size: 17px;
+}
+
+form select{
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px ;
+    margin: 18px 0px;
+    color: #333;
+    -webkit-border-radius:4px  !important;
+    -moz-border-radius:4px !important;
+    -ms-border-radius:4px !important;
+    -o-border-radius:4px !important;
+    outline: none;
+    font-size: 17px;
+}
+form textarea{
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px ;
+    margin: 0px 0px;
+ 
+    color: #333;
+    -webkit-border-radius:4px  !important;
+    -moz-border-radius:4px !important;
+    -ms-border-radius:4px !important;
+    -o-border-radius:4px !important;
+    outline: none;
+    font-size: 17px;
+}
+
+form textarea{
+    height: 1500px;
+}
+.form-group .col-md-12{
+    height: 890px;
+}
+
+
+form input:hover,
+form textarea:hover{
+    border: 1px solid #565acf;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out ;
+    -moz-transition:.2s ease-in-out;
+    -ms-transition:.2s ease-in-out;
+    -o-transition:.2s ease-in-out;
+    background-color: #f6f6f6;
+    
+
+}
+
+form button{
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+   
+    background-color: var(--orange-color) !important ;
+    -webkit-border-radius:4px  !important;
+    -moz-border-radius:4px !important;
+    -ms-border-radius:4px !important;
+    -o-border-radius:4px !important;
+    border: 1px solid  var(--orange-color)!important ;
+    border-radius:  4px !important;
+    color :#fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+   
+}
+
+form button:hover{
+    background-color: transparent !important;
+    color: var(--orange-color);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out ;
+    -moz-transition:.3s ease-in-out;
+    -ms-transition:.3s ease-in-out;
+    -o-transition:.3s ease-in-out;
+}
+
+.side{
+    background: url("../ASSESTS/pic2.jpg") center;
+    width: 90%;
+   margin-top: 15px;
+  
+    max-width: 100%;
+    background-size: cover;
+    border-radius: 4px;
+    -webkit-border-radius:4px  ;
+    -moz-border-radius:4px ;
+    -ms-border-radius:4px ;
+    -o-border-radius:4px ;
+    
+
+}
+
+.side .overlay{
+    background-color: #565acf;
+    opacity: .7;
+    padding: 15px;
+    border-radius: 8px;
+    -webkit-border-radius:8px  ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
+    padding: 25px 20px;
+    
+}
+
+.side .overlay h3 {
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.side .overlay li {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+.side ,.overlay li svg{
+    margin-right: 15px;
+}
+
+.side .overlay hr{
+   
+    color: white;
+    background-color: white;
+}
+
+.side .overlay p{
+    color: white;
+    font-size: 17px;
+    margin: 10px 0px;
+
+}
+.side .overlay ul{
+    padding: 0px;
+}
+
+.side .overlay ul li{
+    display:  inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 4px;
+    -webkit-border-radius:4px  ;
+    -moz-border-radius:4px ;
+    -ms-border-radius:4px ;
+    -o-border-radius:4px ;
+
+}
+
+
+
+.side .overlay ul li svg{
+
+ padding: 11px;
+}
+
+
+
+
+
+.contact-wraper {
+    background-color: #fff;
+    box-shadow: 0 10px 60px 0 rgba(31,34,120,.1);
+    border-radius: 40px;
+    padding: 70px 50px 40px;
+    position: relative;
+
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+
+.card-f1{
+    background-color: white;
+    width: 23em;
+   
+    padding: 25px;
+    margin: 20px;
+    border-radius: 8px;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 5px 30px 0 rgba(31,34,120,.08);
+    border: 1px solid #E2C4FF;
+}
+
+.card-f2{
+    background-color: white;
+    width: 23em;
+   
+    padding: 25px;
+    margin: 20px;
+    border-radius: 8px;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 5px 30px 0 rgba(31,34,120,.08);
+    border: 1px solid 
+    #FFBDBC;
+}
+
+.card-f3{
+    background-color: white;
+    width: 23em;
+   
+    padding: 25px;
+    margin: 20px;
+    border-radius: 8px;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 5px 30px 0 rgba(31,34,120,.08);
+    border: 1px solid #A4FCC4;
+}
+
+
+
+.card-f1:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+    
+}
+.card-f2:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+.card-f3:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+.card .icon{
+   color: #1e3564;
+   font-size: 7em;
+   text-align: center;
+   position: relative;
+    margin-bottom: 25px;
+}
+
+.info{
+    text-align:left;
+}
+
+.info h5{
+    color: #1e3564;
+   font-size: 20px;
+    font-weight: bold;
+    margin: 18px 0px 18px;
+}
+
+
+
+.info p{
+    line-height: 1.7;
+    color: #444;
+    margin: 0 ;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.icon-img img{
+    
+    width: 50px;
+
+  
+}
+
